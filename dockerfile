@@ -4,6 +4,7 @@ RUN  sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
 RUN apt-get update -y && \
         apt-get install make -y && \
         apt-get install gcc-arm-linux-gnueabihf -y && \
+        apt-get install aarch64-linux-gnu- -y && \
         apt-get install gcc -y && \
         apt-get install bison flex -y && \
         apt-get install libssl-dev -y && \
