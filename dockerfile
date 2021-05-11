@@ -15,4 +15,5 @@ RUN apt-get update -y && \
         apt-get install bc -y && \
         apt-get install kmod -y && \
         apt-get install cpio -y && \
+        apt-get install sudo -y && \
         apt-get clean
